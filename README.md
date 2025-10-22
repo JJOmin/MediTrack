@@ -7,3 +7,8 @@ Ein System zur Verwaltung und Überwachung von Patientendaten, einschließlich V
 * **Eingabe von Vitaldaten:** Patienten oder medizinisches Personal können Vitaldaten (z. B. Blutdruck, Puls, Temperatur) eingeben.
 * **Benachrich.gungssystem:** Automatische Benachrichtigungen an Ärzte oder Pflegepersonal, wenn Vitalwerte kritische Schwellen überschreiten.
 * **Behandlungsübersicht:** Zugriff auf eine Historie der bisherigen Behandlungen und medizinischen Eingriffe.
+
+
+>[!todo]
+>- Liste an Todos
+>- 
