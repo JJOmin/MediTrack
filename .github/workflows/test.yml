@@ -1,0 +1,25 @@
+name: CI Test Pipeline (Ferdi)
+
+on:
+  push:
+    branches: [ Ferdi ]
+  pull_request:
+    branches: [ Ferdi ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build project
+        run: mvn -B clean compile
+
+      - name: Run unit tests
+        run: mvn test
